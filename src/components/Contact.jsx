@@ -22,7 +22,7 @@ function Contact() {
           >
             <h1 className="text-xl font-semibold mb-4">Send Your Message</h1>
             <div className="flex flex-col mb-4">
-              <label className="block text-gray-700">FullName</label>
+              <label className="block text-gray-700" required>FullName</label>
               <input
                 
                 className="shadow rounded-lg appearance-none border  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -34,7 +34,7 @@ function Contact() {
               
             </div>
             <div className="flex flex-col mb-4">
-              <label className="block text-gray-700">Email Address</label>
+              <label className="block text-gray-700" required>Email Address</label>
               <input
                
                 className="shadow rounded-lg appearance-none border  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
